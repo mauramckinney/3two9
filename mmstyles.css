@@ -1,0 +1,159 @@
+
+
+    /* 
+    
+    Title: 3two9 image & design
+    Author: Maura McKinney
+    OC CIS 155 Web Development 1
+    Build on Concepts Project #BoC3
+    Date : 11-6-18
+    File Name:mmstyles.css
+    
+    */
+    
+    
+  
+   
+            
+/* main structure styles */
+    
+@font-face{
+        font-family: sans-serif;
+        
+        
+}
+    
+ 
+html{
+    background-image: url('images/IMG_2048.jpg');
+    background-size:auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;    
+    
+}
+
+body{
+    width:95%;
+    min-width:640px;
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height: 100%;
+}
+
+
+main{
+    display:block;
+    background-color:white;
+    padding-bottom: 10px;
+    border: 5px solid;
+    border-radius: 25px;
+    
+    
+}
+
+#section portfolio {
+    display: block;
+    background-color: white;
+    padding-left: 20px;
+    height: 100px;
+    border: 5px solid;
+    border-radius: 25px;
+}
+
+/*Heading Styles*/
+
+header img{
+    display:block;
+    width:auto;
+    border:5px solid;
+    border-color: black;
+    border-radius: 25px;
+    
+}
+
+h1{
+    color:teal;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: auto;
+    margin-left: 20px;
+    text-align: justify;
+    
+}
+
+h2{
+    color:darkorange;
+    
+}
+
+/*Blockquote Styles*/
+    
+
+
+/*Navigation Styles*/
+
+body > nav {
+    box-sizing: border-box;
+    font-size: 2em;
+    line-height: normal;
+    width: 50%;
+    float: none;
+    text-align: justify;
+    
+}
+
+li {
+    display:inline-block;
+    
+}
+
+nav > ul{
+    list-style-type:none;
+    text-align: justify
+}
+   
+/*DIV STYLES*/
+
+#types li{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+#types li img{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    width: 120px;
+    height: auto;
+}
+
+/*Paragraph Styles*/
+p{
+    margin:20px;
+    text-indent: 25px;
+    color: dimgray;
+    align-content: center;
+   
+            
+}
+
+/*Footer Styles*/
+
+footer{
+    position:fixed;
+    bottom:10px;
+    width: 960px;
+    clear:both;
+    display:block;
+    color: white;
+    text-align: center;
+    background: linear-gradient(orange, teal, black);
+        
+}
+
+    
