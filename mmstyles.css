@@ -80,11 +80,17 @@ h1{
     margin-bottom: auto;
     margin-left: 20px;
     text-align: justify;
+    text-shadow: 2px 2px black;
     
 }
 
 h2{
     color:darkorange;
+    display: block;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+
     
 }
 
@@ -96,11 +102,13 @@ h2{
 
 body > nav {
     box-sizing: border-box;
-    font-size: 2em;
+    font-size: 30px;
     line-height: normal;
     width: 50%;
     float: none;
-    text-align: justify;
+    text-align: center;
+    text-shadow: 3px 3px grey;
+
     
 }
 
@@ -111,7 +119,9 @@ li {
 
 nav > ul{
     list-style-type:none;
-    text-align: justify
+    text-align: center;
+
+
 }
    
 /*DIV STYLES*/
@@ -134,19 +144,33 @@ nav > ul{
 
 /*Paragraph Styles*/
 p{
-    margin:20px;
+    font-size: 20px;
+    margin:30px;
     text-indent: 25px;
     color: dimgray;
     align-content: center;
-   
+    
+  
             
+}
+
+/* article styles*/
+
+article {
+
+    display:inline-block;
+    background-color: rgb(192,192,192);
+    border-radius: 8px;
+    border-style: double;
+
+
 }
 
 /*Footer Styles*/
 
 footer{
     position:fixed;
-    bottom:10px;
+    bottom:20px;
     width: 960px;
     clear:both;
     display:block;
